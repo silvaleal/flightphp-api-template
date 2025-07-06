@@ -1,0 +1,21 @@
+{
+    "name": "ytsrd/flotyweb-api-pagamentos",
+    "autoload": {
+        "psr-4": {
+            "Ytsrd\\FlotywebApiPagamentos\\": "src/"
+        },
+        "files": [
+            "database/database.php",
+            "routes/routes.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "silvaleal",
+            "email": "joseeer27@gmail.com"
+        }
+    ],
+    "require": {
+        "flightphp/core": "^3.16"
+    }
+}
